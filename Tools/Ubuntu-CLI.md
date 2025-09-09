@@ -1,6 +1,7 @@
 # Ubuntu Command Line Interface
 
-#### **[⇐ Embedded Engineering Tools](../Embedded-Engineering-Tools.md)**
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**
 ---
 
 ## Basic Commands
@@ -47,3 +48,9 @@
 * Run the compiled / built file
 
     `./<binaryfile>.out`
+
+
+
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**
+---

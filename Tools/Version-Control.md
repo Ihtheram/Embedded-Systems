@@ -1,6 +1,7 @@
 # Version Control
 
-#### **[⇐ Embedded Engineering Tools](../Embedded-Engineering-Tools.md)**
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**
 ---
 
 ## Version Control System (VCS) / Revision Control System (RCS)
@@ -124,4 +125,6 @@ Resolving conflicts is done by analyzing the differences between software sets a
 * `git config --local user.name "{username}"`
 * `git config --local user.email "{email}"`
 
-
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**
+---

@@ -1,12 +1,10 @@
 # Programming Environment & Development Tools
 
-#### **[⇐ Embedded Systems](./README.md)**
-
-* **[C Programming Language](./Tools/C.md)**
-
-* **[Version Control](./Tools/Version-Control.md)**
-
-* **[Ubuntu CLI](./Tools/Ubuntu-CLI.md)**
+---
+#### **[⇐ Embedded Systems](../README.md)**
+* **[C Programming Language](./C.md)**
+* **[Version Control](./Version-Control.md)**
+* **[Ubuntu CLI](./Ubuntu-CLI.md)**
 ---
 
 ## Environments
@@ -105,7 +103,7 @@
     * Gentoo
 
 ### Ubuntu CLI
-[Ubuntu CLI operations](Tools/Ubuntu-CLI.md)
+[Ubuntu CLI operations](./Ubuntu-CLI.md)
 
 ---
 
@@ -116,7 +114,7 @@
     - Application-Specific Integrated Circuit (ASIC)
     - Examples: Texas Instruments, Silicon Labs, Atmel, or NXP Semi-conductors
 
-![ARM Cortex M0+ by Silicon Labs](Images/ARM-Cortex-M0Plus.jpg)
+![ARM Cortex M0+ by Silicon Labs](../Images/ARM-Cortex-M0Plus.jpg)
 
 ### Development Kits
 * **NXP FRDM-KL25Z** Microcontroller
@@ -127,7 +125,7 @@
 
     * **OpenSDA** - Open Serial Debug Adapter, an adapter that has a specialized, dedicated connection to the processor target for debug support and for the programmer interface. Can be interacted with by connecting a USB cable to the host machine and running a special Integrated Development Environment (IDE) for this processor.
 
-    ![FRDM-KL25Z On-Board Programmer-Debugger Support](Images/NXP-FRDM-KL25Z-On-Board-Programmer-Debugger-Support.jpg)
+    ![FRDM-KL25Z On-Board Programmer-Debugger Support](../Images/NXP-FRDM-KL25Z-On-Board-Programmer-Debugger-Support.jpg)
     
 
     * Supplemental Hardware - has external sensor circuitry like
@@ -137,9 +135,9 @@
 
     * Cheap in price
   
-    ![NXP FRDM-KL25Z Microcontroller](Images/NXP-FRDM-KL25Z-Microcontroller.jpg)
+    ![NXP FRDM-KL25Z Microcontroller](../Images/NXP-FRDM-KL25Z-Microcontroller.jpg)
 
-    ![FRDM-KL25Z On-Board Development Support](Images/NXP-FRDM-KL25Z-On-Board-Development-Support.jpg)
+    ![FRDM-KL25Z On-Board Development Support](../Images/NXP-FRDM-KL25Z-On-Board-Development-Support.jpg)
 
 
 * **Texas Instruments NXP432 Launch Pad**
@@ -150,7 +148,7 @@
     
     * Cheap in price
 
-![Texas Instruments NXP432 Launch Pad](Images/Texas-Instruments-NXP432-Launch-Pad.jpg)
+![Texas Instruments NXP432 Launch Pad](../Images/Texas-Instruments-NXP432-Launch-Pad.jpg)
 
 * **Nordic nRF24L01+** Wireless Module
     
@@ -162,7 +160,7 @@
 
     - Easily connects through microcontroller boards using a few extra wires
 
-![NXP FRDM-KL25Z Microcontroller](Images/Nordic-nRF24L01Plus-Wireless-Module.jpg)
+![NXP FRDM-KL25Z Microcontroller](../Images/Nordic-nRF24L01Plus-Wireless-Module.jpg)
 
 ### MCU Features to Consider for Selection
 Microcontrollers have many  that you need to know about before making a selection, especially because there will be software implications. Some important features include
@@ -198,81 +196,14 @@ Microcontrollers have many  that you need to know about before making a selectio
 
 These features affect the operation and performance on embedded platform.
 
----
 
 ## Documentation
-
-* **Features Specification**
-    
-    - The process of creating feature and operation requirements checklist is called a specification, or a features spec.
-
-* **Investigation of Features & Specs**
- 
-    * **Platform Documents** - There are many documents that describe how to pick out a platform or evaluate a particular chip.
-        
-        1. **Selector Guide** - Helps a user slip down choices by interactively selecting feature sets for our design. It shows a full processor family.
-        
-            * A **chip family** will share the same chip architecture.
-            * Each **sub-family** typically has more differences in supported hardware.
-            * Each **device** in a sub-family only has a slightly variances from one sub-family part to another.
-
-        ![Selector Guide](Images/Selector-Guide.jpg)
-
-        2. **Product Brief**
-            * Concise overview of a product
-            * Talks about use cases
-            * Gives more detailed feature specifications
-            * Nice on the eyes
-
-        3. **Datasheets**
-
-            * An informative yet dense read
-
-            * Contains detailed technical specifications
-
-                * **Electrical** - Information on power specs of various conditions and operating modes.
-                
-                ![Electrical Spec](Images/Electrical-Spec.jpg)
-
-                
-                * **Timing** - You will find info on the limit of the processor's clock frequencies. There are timing diagrams that show expected time delays before certain digital signals are asserted. These quantities are usually measured in micro or nano seconds. Helps predict or calculate runtime requirements and performance.
-                
-                ![Timing Spec](Images/Timing-Spec.jpg)
-                
-                * **Environmental** - Environmental effects such as how temperature, can affect the device or the operation characteristics.
-                
-                ![Environmental Spec](Images/Environmental-Spec.jpg)
-
-                * **Physical Package** - physical design constraints such as a CAD drawing with dimensions for the physical package and footprints of the chip, describes which pins match up to the general IO ports of the microcontroller, and subsequently, which pins can connect to certain peripheral devices.
-
-                ![Physical Package](Images/Physical-Package-Spec.jpg)
-        
-        4. **Family Technical Reference Manual**
-            
-            A comprehensive document that provides detailed information about a specific family of microcontrollers or integrated circuits (ICs). It outlines:
-
-            * Configuration details
-            * Operation descriptions
-            * Used to write Bare-Metal Firmware
-            
-            ![Family Technical Reference Manual](Images/Ref-Manual.jpg)
-            
-        5. **Chip Errata**
-            
-            A document that provides important information about issues or problems found in a specific chip or family of chips after they have been released.
-        
-            * Integrated Circuits are not perfect
-            * Error descriptions
-            * Provides corrective information or workaround to issue
-
-            ![Chip Errata](Images/Chip-Errata.jpg)
+[Documentation](../Embedded-Software-Engineering.md#documentation).
 
 
-    * **Prototyping & Proof of Concept**
-        * **Prototyping** - The process of creating an early model or sample of a product to test and validate ideas before full-scale production.
-        
-        * **Proof of Concept (PoC)** - A demonstration to verify that certain concepts or theories have the potential to be developed into a viable product.
-
-        - Manufacturers help with this process by providing resources to analyze their products. 
-
-
+---
+#### **[⇐ Embedded Systems](../README.md)**
+* **[C Programming Language](./C.md)**
+* **[Version Control](./Version-Control.md)**
+* **[Ubuntu CLI](./Ubuntu-CLI.md)**
+---

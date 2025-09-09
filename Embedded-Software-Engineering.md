@@ -1,5 +1,6 @@
 # Embedded Software Engineering
 
+---
 #### **[⇐ Embedded Systems](./README.md)**
 ---
 
@@ -64,7 +65,7 @@
 On-target testing is installing code on to particular embedded system instead of another.
 
 ### Software Engineer Tools
-[Embedded Software Engineering Tools](Embedded-Engineering-Tools.md#software-engineer-tools).
+[Embedded Software Engineering Tools](Tools/README.md#software-engineer-tools).
 
 ### Principles of High Quality Software
 
@@ -80,7 +81,7 @@ Build and design embedded software that is:
 Keeping these in mind helps to write better code, speed up development by using all code and produce system bug free software.
 
 ### Programming Languages
-[Programming languages used in embedded engineering](Embedded-Engineering-Tools.md#languages).
+[Programming languages used in embedded engineering](Tools/README.md#languages).
 
 
 ---
@@ -145,6 +146,86 @@ Reasons:
 - Off-company roadmap
 
 ## Development Environment
-[Development Environment](Embedded-Engineering-Tools.md#development-environment).
+[Development Environment](Tools/README.md#development-environment).
+
+---
 
 ## Documentation
+
+* **Features Specification**
+    
+    - The process of creating feature and operation requirements checklist is called a specification, or a features spec.
+
+* **Investigation of Features & Specs**
+ 
+    * **Platform Documents** - There are many documents that describe how to pick out a platform or evaluate a particular chip.
+        
+        1. **Selector Guide** - Helps a user slip down choices by interactively selecting feature sets for our design. It shows a full processor family.
+        
+            * A **chip family** will share the same chip architecture.
+            * Each **sub-family** typically has more differences in supported hardware.
+            * Each **device** in a sub-family only has a slightly variances from one sub-family part to another.
+
+        ![Selector Guide](Images/Selector-Guide.jpg)
+
+        2. **Product Brief**
+            * Concise overview of a product
+            * Talks about use cases
+            * Gives more detailed feature specifications
+            * Nice on the eyes
+
+        3. **Datasheets**
+
+            * An informative yet dense read
+
+            * Contains detailed technical specifications
+
+                * **Electrical** - Information on power specs of various conditions and operating modes.
+                
+                ![Electrical Spec](Images/Electrical-Spec.jpg)
+
+                
+                * **Timing** - You will find info on the limit of the processor's clock frequencies. There are timing diagrams that show expected time delays before certain digital signals are asserted. These quantities are usually measured in micro or nano seconds. Helps predict or calculate runtime requirements and performance.
+                
+                ![Timing Spec](Images/Timing-Spec.jpg)
+                
+                * **Environmental** - Environmental effects such as how temperature, can affect the device or the operation characteristics.
+                
+                ![Environmental Spec](Images/Environmental-Spec.jpg)
+
+                * **Physical Package** - physical design constraints such as a CAD drawing with dimensions for the physical package and footprints of the chip, describes which pins match up to the general IO ports of the microcontroller, and subsequently, which pins can connect to certain peripheral devices.
+
+                ![Physical Package](Images/Physical-Package-Spec.jpg)
+        
+        4. **Family Technical Reference Manual**
+            
+            A comprehensive document that provides detailed information about a specific family of microcontrollers or integrated circuits (ICs). It outlines:
+
+            * Configuration details
+            * Operation descriptions
+            * Used to write Bare-Metal Firmware
+            
+            ![Family Technical Reference Manual](Images/Ref-Manual.jpg)
+            
+        5. **Chip Errata**
+            
+            A document that provides important information about issues or problems found in a specific chip or family of chips after they have been released.
+        
+            * Integrated Circuits are not perfect
+            * Error descriptions
+            * Provides corrective information or workaround to issue
+
+            ![Chip Errata](Images/Chip-Errata.jpg)
+
+
+    * **Prototyping & Proof of Concept**
+        * **Prototyping** - The process of creating an early model or sample of a product to test and validate ideas before full-scale production.
+        
+        * **Proof of Concept (PoC)** - A demonstration to verify that certain concepts or theories have the potential to be developed into a viable product.
+
+        - Manufacturers help with this process by providing resources to analyze their products. 
+
+
+---
+#### **[⇐ Embedded Systems](./README.md)**
+---

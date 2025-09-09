@@ -1,6 +1,7 @@
 # C Programming Language
 
-#### **[⇐ Embedded Engineering Tools](../Embedded-Engineering-Tools.md)**
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**
 ---
 
 ### Variable Declaration Format: 
@@ -266,3 +267,7 @@ The copyright listed in this section is also very important for a software engin
 # undef VERSION
 # define VERSION “Version 1.30”
 ```
+
+
+---
+#### **[⇐ Embedded Engineering Tools](./README.md)**

@@ -1,6 +1,6 @@
 # Electrical Engineering Concepts
 
-
+---
 #### **[⇐ Embedded Systems](./README.md)**
 ---
 - **Current (I)**: The flow of electric charge in a circuit, measured in amperes (A). Ensuring that components receive the correct amount of power is crucial to prevent overheating or failing.
@@ -34,3 +34,7 @@
   - Used in filtering applications, energy storage, and in transformers.
   - Opposes changes in current, which can lead to voltage spikes when the current is suddenly interrupted.
   - Often found in power supply circuits and RF (Radio Frequency) applications (e.g. cell phones, Wi-Fi routers, and radar).
+
+---
+#### **[⇐ Embedded Systems](./README.md)**
+---

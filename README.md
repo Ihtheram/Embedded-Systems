@@ -6,9 +6,10 @@ Embedded System Study Materials
 **[⇐ Tech Study](https://github.com/Ihtheram/Tech-Study)**
 
 * **[Embedded Software Engineering](./Embedded-Software-Engineering.md)**
-
-* **[Embedded Engineering Tools](./Embedded-Engineering-Tools.md)**
-
+* **[Embedded Engineering Tools](Tools/README.md)**
+    - **[C](./Tools/C.md)**
+    - **[Ubuntu CLI](./Tools/Ubuntu-CLI.md)**
+    - **[Version Control](./Tools/Version-Control.md)**
 * **[Electrical Engineering Concepts](./Electrical-Engineering-Concepts.md)**
 ---
 
@@ -17,9 +18,10 @@ An embedded system is a computerized system that is custom-made for its applicat
 
 
 
+
 ## Key components of an embedded system
 
-- **Microprocessor/Microcontroller**: Microprocessor is the brain of the embedded system, responsible for processing data and executing instructions. A microcontroller is a microprocessor with added functionality such as memory and peripheral hardware.
+- **Microprocessor/Microcontroller**: Microprocessor processes data and executes instructions, practically is the brain of the embedded system. A microcontroller is a microprocessor with added functionality such as memory and peripheral hardware.
 
 - **Memory**: Used to store data and programs. It includes:
     - **RAM (Random Access Memory)**: Temporary storage for data being used.
@@ -209,3 +211,14 @@ Describe the role of the Central Processing Unit (CPU) in a microcontroller.
 What are some of the constraints that embedded systems face compared to general-purpose computers?
 
 True or False? The Arithmetic Logic Unit (ALU) is responsible for performing high-level programming tasks in an embedded system. Answer: False.
+
+---
+**[⇐ Tech Study](https://github.com/Ihtheram/Tech-Study)**
+
+* **[Embedded Software Engineering](./Embedded-Software-Engineering.md)**
+* **[Embedded Engineering Tools](Tools/README.md)**
+    - **[C](./Tools/C.md)**
+    - **[Ubuntu CLI](./Tools/Ubuntu-CLI.md)**
+    - **[Version Control](./Tools/Version-Control.md)**
+* **[Electrical Engineering Concepts](./Electrical-Engineering-Concepts.md)**
+---
