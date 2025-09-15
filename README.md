@@ -32,7 +32,7 @@ An embedded system is a computerized system that is custom-made for its applicat
 - **Development Environment**: Tools and software used to write, test, and debug the code for the embedded system.
 
 - **Power Supply**: Provides the necessary energy for the system to operate.
-Understanding these components is essential for designing and implementing embedded systems effectively.
+
 
 ## Platform Components in Embedded Development
 
